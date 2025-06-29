@@ -1,5 +1,5 @@
 {
-  "update_time": 1751182631,
+  "update_time": 1751193872,
   "data": [
     {
       "title": "时光流逝 饭菜依旧美味",
@@ -12,14 +12,14 @@
       "replies": "0",
       "views": "29",
       "post_time": "2025-6-29 06:55",
-      "votes1": "5",
-      "votes2": "1",
+      "votes1": "6",
+      "votes2": "4",
       "votes3": "0",
       "votes4": "1",
       "votes5": "1",
       "message": "",
-      "score": "100.0000",
-      "standard_deviation": "1.5000"
+      "score": "108.3333",
+      "standard_deviation": "1.2555"
     },
     {
       "title": "记忆缝线",
@@ -72,14 +72,14 @@
       "replies": "8",
       "views": "420",
       "post_time": "2025-6-26 22:24",
-      "votes1": "72",
+      "votes1": "74",
       "votes2": "3",
       "votes3": "0",
       "votes4": "1",
       "votes5": "3",
       "message": "",
-      "score": "177.2152",
-      "standard_deviation": "0.8412"
+      "score": "177.7778",
+      "standard_deviation": "0.8315"
     },
     {
       "title": "末日后酒店",
@@ -92,14 +92,14 @@
       "replies": "7",
       "views": "529",
       "post_time": "2025-6-25 08:23",
-      "votes1": "52",
-      "votes2": "5",
+      "votes1": "53",
+      "votes2": "6",
       "votes3": "6",
       "votes4": "2",
       "votes5": "0",
       "message": "",
-      "score": "164.6154",
-      "standard_deviation": "0.7732"
+      "score": "164.1791",
+      "standard_deviation": "0.7669"
     },
     {
       "title": "机动战士高达 GQuuuuuuX",
@@ -115,11 +115,11 @@
       "votes1": "3",
       "votes2": "24",
       "votes3": "15",
-      "votes4": "19",
+      "votes4": "20",
       "votes5": "46",
       "message": "",
-      "score": "-75.7009",
-      "standard_deviation": "1.2886"
+      "score": "-75.9259",
+      "standard_deviation": "1.2829"
     },
     {
       "title": "随兴旅 -That's Journey-",
@@ -132,14 +132,14 @@
       "replies": "1",
       "views": "70",
       "post_time": "2025-6-24 21:03",
-      "votes1": "0",
+      "votes1": "1",
       "votes2": "1",
       "votes3": "3",
       "votes4": "3",
       "votes5": "2",
       "message": "",
-      "score": "-66.6667",
-      "standard_deviation": "0.9428"
+      "score": "-40.0000",
+      "standard_deviation": "1.2000"
     },
     {
       "title": "直至魔女消逝",
@@ -352,14 +352,14 @@
       "replies": "4",
       "views": "250",
       "post_time": "2025-6-22 15:30",
-      "votes1": "17",
+      "votes1": "18",
       "votes2": "19",
       "votes3": "3",
       "votes4": "1",
       "votes5": "3",
       "message": "",
-      "score": "106.9767",
-      "standard_deviation": "1.0868"
+      "score": "109.0909",
+      "standard_deviation": "1.0833"
     },
     {
       "title": "Thunderbolt Fantasy 东离剑游纪 最终章",
@@ -432,14 +432,14 @@
       "replies": "0",
       "views": "177",
       "post_time": "2025-4-16 14:35",
-      "votes1": "13",
+      "votes1": "14",
       "votes2": "3",
       "votes3": "4",
       "votes4": "0",
       "votes5": "0",
       "message": "",
-      "score": "145.0000",
-      "standard_deviation": "0.8047"
+      "score": "147.6190",
+      "standard_deviation": "0.7940"
     },
     {
       "title": "机动战士高达：跨时之战",
@@ -512,14 +512,14 @@
       "replies": "7",
       "views": "445",
       "post_time": "2025-4-16 00:32",
-      "votes1": "43",
+      "votes1": "45",
       "votes2": "8",
       "votes3": "3",
       "votes4": "0",
       "votes5": "0",
       "message": "",
-      "score": "174.0741",
-      "standard_deviation": "0.5506"
+      "score": "175.0000",
+      "standard_deviation": "0.5428"
     },
     {
       "title": "魔法使光之美少女！！～未来之日～",
@@ -556,10 +556,10 @@
       "votes2": "11",
       "votes3": "3",
       "votes4": "9",
-      "votes5": "93",
+      "votes5": "94",
       "message": "",
-      "score": "-105.8824",
-      "standard_deviation": "1.5328"
+      "score": "-106.5693",
+      "standard_deviation": "1.5293"
     },
     {
       "title": "在地下城寻求邂逅是否搞错了什么Ⅴ 丰饶的女神篇",
@@ -812,14 +812,14 @@
       "replies": "1",
       "views": "134",
       "post_time": "2025-2-7 21:27",
-      "votes1": "3",
+      "votes1": "4",
       "votes2": "10",
       "votes3": "4",
       "votes4": "0",
       "votes5": "1",
       "message": "",
-      "score": "77.7778",
-      "standard_deviation": "0.9162"
+      "score": "84.2105",
+      "standard_deviation": "0.9326"
     },
     {
       "title": "偶像大师 闪耀色彩 第二季",
@@ -2193,13 +2193,13 @@
       "views": "5553",
       "post_time": "2024-9-28 23:53",
       "votes1": "201",
-      "votes2": "67",
+      "votes2": "68",
       "votes3": "19",
       "votes4": "8",
       "votes5": "9",
       "message": "",
-      "score": "145.7237",
-      "standard_deviation": "0.9415"
+      "score": "145.5738",
+      "standard_deviation": "0.9403"
     },
     {
       "title": "擅长逃跑的殿下",
@@ -10112,14 +10112,14 @@
       "replies": "11",
       "views": "13784",
       "post_time": "2022-10-1 16:19",
-      "votes1": "111",
+      "votes1": "112",
       "votes2": "30",
       "votes3": "13",
       "votes4": "2",
       "votes5": "4",
       "message": "",
-      "score": "151.2500",
-      "standard_deviation": "0.8873"
+      "score": "151.5528",
+      "standard_deviation": "0.8854"
     },
     {
       "title": "夏日重现",
