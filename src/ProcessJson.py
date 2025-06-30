@@ -136,19 +136,19 @@ def process_csv_file(input_file):
     }
     
     # 固定JSON文件名
-    json_filename = 'database.json'
-    # min_json_filename = 'database.min.json'
+    # json_filename = 'database.json'
+    min_json_filename = 'database.min.json'
     
     # 写入格式化的JSON文件
-    with open(json_filename, 'w', encoding='utf-8') as f:
-        json.dump(final_json, f, ensure_ascii=False, indent=2)
+    # with open(json_filename, 'w', encoding='utf-8') as f:
+        # json.dump(final_json, f, ensure_ascii=False, indent=2)
     
     # 写入压缩版JSON文件（无缩进/空格）
-    # with open(min_json_filename, 'w', encoding='utf-8') as f:
-        # json.dump(final_json, f, ensure_ascii=False, separators=(',', ':'))
+    with open(min_json_filename, 'w', encoding='utf-8') as f:
+        json.dump(final_json, f, ensure_ascii=False, separators=(',', ':'))
     
-    print(f"已将处理后的数据保存为JSON文件: {json_filename}")
-    # print(f"已生成压缩版JSON文件: {min_json_filename}")
+    # print(f"已将处理后的数据保存为JSON文件: {json_filename}")
+    print(f"已生成压缩版JSON文件: {min_json_filename}")
     print(f"更新时间戳: {current_timestamp} ({datetime.datetime.fromtimestamp(current_timestamp).isoformat()})")
 
 # 主程序

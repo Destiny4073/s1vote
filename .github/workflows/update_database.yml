@@ -5,7 +5,7 @@ name: Update Database
 
 on:
   schedule:
-    - cron: '30 22 * * *'
+    - cron: '0 22 * * *'
   workflow_dispatch:
 
 permissions:
@@ -42,6 +42,6 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-        git add database.csv database.json
+        git add database.csv database.min.json
         git commit -m "Automated update $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
         git push
