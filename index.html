@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S1漫区投票统计</title>
+    <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container"> 
+        <div class="dashboard">
+            <div class="controls">
+                <div class="sort-buttons">
+                    <button class="btn btn-primary active" id="good-btn">
+                        <i class="fas fa-thumbs-up"></i> 好片
+                    </button>
+                    <button class="btn btn-danger" id="bad-btn">
+                        <i class="fas fa-thumbs-down"></i> 烂片
+                    </button>
+                    <button class="btn btn-warning" id="popular-btn">
+                        <i class="fas fa-fire"></i> 人气
+                    </button>
+                    <button class="btn btn-info" id="controversy-btn">
+                        <i class="fas fa-exclamation-triangle"></i> 争议
+                    </button>
+                    <button class="btn btn-success" id="new-btn">
+                        <i class="fas fa-star"></i> 最新
+                    </button>
+                </div>
+                
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="search"><i class="fas fa-search"></i> 搜索</label>
+                        <input type="text" id="search" placeholder="输入作品名或别名" class="search-box">
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="year"><i class="fas fa-calendar"></i> 年份</label>
+                        <select id="year">
+                            <option value="all">全部年份</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="month"><i class="fas fa-calendar-alt"></i> 月份</label>
+                        <select id="month">
+                            <option value="all">全部月份</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label><i class="fas fa-tags"></i> 类别</label>
+                        <div class="category-select">
+                            <div class="category-select-btn" id="category-btn">
+                                <div class="category-btn-text" id="selected-categories">
+                                    <span>全部类别</span>
+                                </div>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="category-options" id="category-options">
+                                <div class="category-option">
+                                    <input type="checkbox" id="tv-cb" value="TV" checked>
+                                    <label for="tv-cb">TV</label>
+                                </div>
+                                <div class="category-option">
+                                    <input type="checkbox" id="movie-cb" value="MOV" checked>
+                                    <label for="movie-cb">MOVIE</label>
+                                </div>
+                                <div class="category-option">
+                                    <input type="checkbox" id="ova-cb" value="OVA" checked>
+                                    <label for="ova-cb">OVA</label>
+                                </div>
+                                <div class="category-option">
+                                    <input type="checkbox" id="web-cb" value="WEB" checked>
+                                    <label for="web-cb">WEB</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>排名</th>
+                            <th>标题</th>
+                            <th>平均分</th>
+                            <th>投票数</th>
+                            <th>点击数</th>
+                            <th>回复数</th>
+                            <th>争议</th>
+                            <th>投票开始</th>
+                        </tr>
+                    </thead>
+                    <tbody id="movie-table">
+                        <tr>
+                            <td colspan="8">
+                                <div class="loading-wrapper">
+                                    <div class="loading">
+                                        <div class="loading-spinner"></div>
+                                        正在加载数据……
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- 分页控件 -->
+            <div class="pagination" id="pagination">
+                <button class="page-btn" id="first-page" disabled><i class="fas fa-step-backward"></i></button>
+                <button class="page-btn" id="prev-page" disabled><i class="fas fa-chevron-left"></i></button>
+                <!-- 页码按钮将在这里动态生成 -->
+                <button class="page-btn" id="next-page" disabled><i class="fas fa-chevron-right"></i></button>
+                <button class="page-btn" id="last-page" disabled><i class="fas fa-step-forward"></i></button>
+            </div>
+            
+            <div class="update-info">
+                <div class="update-time">
+                    <i class="fas fa-sync"></i> 更新时间：<span id="update-time">--:--:--</span>
+                </div>
+                <div class="results">
+                    显示 <span id="result-count">0</span> 条结果
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>S1漫区投票统计 &copy; 2025</p>
+        </div>
+    </div>
+</body>
+</html>
