@@ -55,8 +55,10 @@ jobs:
     - name: Push database.min.json to pages branch
       run: |
         cp database.min.json /tmp/database.min.json
-        git checkout -B pages
+        git fetch origin pages
+        git checkout pages
         cp /tmp/database.min.json .
         git add database.min.json
         git commit -m "Automated JSON update $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')" || echo "No JSON changes"
+        git pull --rebase origin pages
         git push origin pages
